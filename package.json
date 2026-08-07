@@ -1,0 +1,29 @@
+{
+  "name": "front-2sem-aula-02",
+  "version": "1.0.0",
+  "description": "Repositório oficial da apostila e das atividades da disciplina de **TypeScript**, destinada aos estudantes do **1º ano de Análise e Desenvolvimento de Sistemas**.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1TDSPw-26/front-2sem-aula-02.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/1TDSPw-26/front-2sem-aula-02/issues"
+  },
+  "homepage": "https://github.com/1TDSPw-26/front-2sem-aula-02#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.1.2",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
