@@ -26,6 +26,7 @@ app.get("/api/alunos", async (_req: Request, res: Response) => {
         const response = await fetch(DB_URL);
 
         if(!response.ok) {
+            
             throw new Error("Náo foi possível consultar os alunos");
         } 
         
