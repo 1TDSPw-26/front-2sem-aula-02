@@ -1,7 +1,5 @@
 const formulario = document.querySelector("#form-aluno");
-
 const listaAlunos = document.querySelector("#lista-alunos");
-
 const mensagem = document.querySelector("#mensagem");
  
 function adicionarCelula(linha, valor) {
@@ -11,7 +9,6 @@ function adicionarCelula(linha, valor) {
   celula.textContent = String(valor);
 
   linha.appendChild(celula);
-
 }
  
 function mostrarAluno(aluno) {
@@ -33,7 +30,6 @@ function mostrarAluno(aluno) {
   adicionarCelula(linha, situacao);
  
   listaAlunos.appendChild(linha);
-
 }
  
 async function carregarAlunos() {
